@@ -72,7 +72,7 @@ for(int i = 0 ; i<3; i++)
             {
                 doorTexts[i].text = picked.slightwrongAnswer;
             }
-            else if(outcomes[i] == 1)
+            else if(outcomes[i] == 2)
             {
                 doorTexts[i].text = picked.dumbAnswer;
             }
