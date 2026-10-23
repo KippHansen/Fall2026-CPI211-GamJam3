@@ -12405,7 +12405,7 @@ MonoBehaviour:
   animationClipName: ChestAnim
   youFoolPanel: {fileID: 1824204640}
   textDisplayDuration: 3
-  previousSceneName: Pride_Level
+  previousSceneName: Gluttony_Level
 --- !u!1 &2048865049
 GameObject:
   m_ObjectHideFlags: 0
