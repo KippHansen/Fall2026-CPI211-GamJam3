@@ -55,10 +55,12 @@
     <Compile Include="Assets\Scripts\ChestGate.cs" />
     <Compile Include="Assets\Scripts\shadow_follower.cs" />
     <Compile Include="Assets\Scripts\ChestEmpty.cs" />
+    <Compile Include="Assets\Scripts\death_plane.cs" />
     <Compile Include="Assets\Scripts\monster_spawner.cs" />
     <Compile Include="Assets\Scripts\player_spawner.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\text_trigger.cs" />
+    <Compile Include="Assets\Scripts\win_plane.cs" />
     <Compile Include="Assets\Score_script.cs" />
   </ItemGroup>
   <ItemGroup>

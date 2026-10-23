@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Rooms/Greed_Level.unity
     guid: 068cd36ff18195848a52f28a195b8d3d
   - enabled: 1
-    path: Assets/Rooms/Pride_Level.unity
+    path: Assets/Rooms/Gluttony_Level.unity
     guid: fb186dfee08d78f4f91e43b3fe6b27f0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
