@@ -1,3 +1,4 @@
+//*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -89,3 +90,9 @@ public class RiddleData
         public string slightwrongAnswer;
         public string dumbAnswer;
     }
+
+    // make sure riddles dont repeat as you progress
+    //looping system
+    //tracking proggression
+    //
+    
