@@ -3155,7 +3155,7 @@ MonoBehaviour:
   textObject: {fileID: 15221094}
   showDuration: 3
   triggerOnce: 1
-  monsterPrefab: {fileID: 0}
+  monsterPrefab: {fileID: 7045305579896299093, guid: ec2febf00426a8342ac73b933c0b91f4, type: 3}
   monsterSpawnPoint: {fileID: 1173920617}
   onTriggered:
     m_PersistentCalls:

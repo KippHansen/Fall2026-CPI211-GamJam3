@@ -124,7 +124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 161855414822854574}
   - component: {fileID: 5131358327714104772}
-  - component: {fileID: 5585267555847124097}
+  - component: {fileID: 3950014464941138939}
   m_Layer: 0
   m_Name: Monster
   m_TagString: Untagged
@@ -175,7 +175,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &5585267555847124097
+--- !u!114 &3950014464941138939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -184,10 +184,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7045305579896299093}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5dd7b3bda0419a4d850f85025490497, type: 3}
+  m_Script: {fileID: 11500000, guid: 40f61b5c7d632d74ebe3e3511d80b370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShadowFollower
-  speed: 15
+  speed: 5
   recordSpacing: 0.15
   startDelay: 1
   catchUpDistance: 10
