@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40f61b5c7d632d74ebe3e3511d80b370, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShadowFollower
-  speed: 5
+  speed: 15
   recordSpacing: 0.15
   startDelay: 1
   catchUpDistance: 10
