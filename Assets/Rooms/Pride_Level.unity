@@ -2630,7 +2630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3673baaf228c5eb4ca38789b4f9e5cab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MonsterSpawner
-  monsterPrefab: {fileID: 0}
+  monsterPrefab: {fileID: 7045305579896299093, guid: ec2febf00426a8342ac73b933c0b91f4, type: 3}
 --- !u!4 &1173920617
 Transform:
   m_ObjectHideFlags: 0
