@@ -9,6 +9,7 @@ using System.Runtime.CompilerServices;
 
 public class Dialogue_script: MonoBehaviour
 {
+    public int floorScore;
     //for the text display
 public GameObject uiCanvas;
  public TextMeshProUGUI maintext;
@@ -19,6 +20,8 @@ public GameObject uiCanvas;
 public RiddleData[] riddles;
 public int[] doorOutcomes = new int[3];
  //
+ private List<RiddleData> availableRiddles = new List<RiddleData>();
+ public int currRiddleIndex;
 
 
     private void OnTriggerEnter(Collider Other)
@@ -81,6 +84,13 @@ for(int i = 0 ; i<3; i++)
             doorTexts[i].gameObject.SetActive(true);
         }
     }
+     public void removeRiddle()
+{
+    if( availableRiddles.Count >0)
+    {
+        availableRiddles.RemoveAt(currRiddleIndex);
+    }
+}
 
 }
 [System.Serializable]
@@ -91,6 +101,8 @@ public class RiddleData
         public string slightwrongAnswer;
         public string dumbAnswer;
     }
+
+   
 
     // make sure riddles dont repeat as you progress
     //looping system
