@@ -7,7 +7,7 @@ using TMPro;
 using System.Runtime.CompilerServices;
 
 
-public class simpleDialog: MonoBehaviour
+public class Dialogue_script: MonoBehaviour
 {
     //for the text display
 public GameObject uiCanvas;
@@ -41,6 +41,7 @@ public int[] doorOutcomes = new int[3];
 
         yield return new WaitForSeconds(3.0f);
         maintext.text= "riddle me this?";
+        yield return new WaitForSeconds(3.0f);
         RunRiddle();
     }
     // everything past this is for the riddles

@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
    {
     Time.timeScale = 1f;
     isPaused = false;
-    SceneManager.LoadSceneAsync("Pride_Level");
+    SceneManager.LoadSceneAsync("Gluttony_Level");
    }
     
     public void Menu()
