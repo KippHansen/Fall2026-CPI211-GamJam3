@@ -370,13 +370,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Credits\n\nArt/Programming\n\nAI Programmer - \nAnimator - Hannah Marney\nConcept
-    Artist - Hannah Marney\nGameplay Programmer - Ryley Hansen\nLevel Designer -
-    Ava\nLevel Programmer - Ilan\nLevel Programmer - Matty Evans\nLevel Programmer
-    - Ryley Hansen\nNarrative Designer - Ilan \nPlayer Programmer - Ryley Hansen\nSound
-    Designer - Hannah Marney\nUI/UX Designer - Hannah Marney\n\nAssets\n\nRetro Fantasy
-    Kit - Kenney Art\nRetro Textures Fantasy - Kenney Art\nAnimated Characters Retro
-    - Kenney Art\nHeaven And Hell Voxel Assets - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\n\nFantasy
+  m_text: "Credits\n\nArt/Programming\n\nAI Programmer - Ryley Hansen \nAnimator
+    - Hannah Marney\nConcept Artist - Hannah Marney\nGameplay Programmer - Ryley
+    Hansen\nLevel Designer - Ava Totosz\nLevel Programmer - Ilan Ahmed\nLevel Programmer
+    - Matty Evans\nLevel Programmer - Ryley Hansen\nNarrative Designer - Ilan Ahmed\nPlayer
+    Programmer - Ryley Hansen\nSound Designer - Hannah Marney\nUI/UX Designer - Hannah
+    Marney\n\nAssets\n\nRetro Fantasy Kit - Kenney Art\nRetro Textures Fantasy -
+    Kenney Art\nAnimated Characters Retro - Kenney Art\nHeaven And Hell Voxel Assets
+    - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\n\nFantasy
     skybox:  \nRender Knight on the Unity Store\n\nMusic/Sound Effects:\n\nMain Menu
     Song: For When It Rains by  Juan Sanchez on Pixabay\nWin Screen Music:\nInstruction
     Screen Music: Angelic Power by Ura Megis on Pixabay\nGameplay Music: Restful
