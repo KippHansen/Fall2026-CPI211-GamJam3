@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Rooms/Main_Menu.unity
+    guid: 8575f90a513a148c184de89b6df504b3
+  - enabled: 1
     path: Assets/Rooms/Testing_Level.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/Gluttony_Level.unity
     guid: fb186dfee08d78f4f91e43b3fe6b27f0
-  - enabled: 1
-    path: Assets/Rooms/Main_Menu.unity
-    guid: 8575f90a513a148c184de89b6df504b3
   - enabled: 1
     path: Assets/Rooms/Credits.unity
     guid: af8924e518a814915b094a022b1be17f
