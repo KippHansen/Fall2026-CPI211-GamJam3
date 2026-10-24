@@ -377,12 +377,15 @@ MonoBehaviour:
     Programmer - Ryley Hansen\nSound Designer - Hannah Marney\nUI/UX Designer - Hannah
     Marney\n\nAssets\n\nRetro Fantasy Kit - Kenney Art\nRetro Textures Fantasy -
     Kenney Art\nAnimated Characters Retro - Kenney Art\nHeaven And Hell Voxel Assets
-    - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\n\nFantasy
-    skybox:  \nRender Knight on the Unity Store\n\nMusic/Sound Effects:\n\nMain Menu
-    Song: For When It Rains by  Juan Sanchez on Pixabay\nWin Screen Music:\nInstruction
+    - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\nPBR - Hospital
+    Horror Pack. Free - DNK_DEV on The Unity Store\nFurniture FREE Pak - DEXSOFT
+    on The Unity Store\n\nFantasy skybox:  \nRender Knight on The Unity Store\n\nMusic/Sound
+    Effects:\n\nMain Menu Song: For When It Rains by  Juan Sanchez on Pixabay\nWin
+    Screen Music: Angelic Opening by Deane Patterson on PIxabay\nScoreboard music:
+    Silver Dust (Angelic Theta Binaural) by Siarhei Korbut on Pixabay\nInstruction
     Screen Music: Angelic Power by Ura Megis on Pixabay\nGameplay Music: Restful
-    Angelic Ambient 02 by Ura Megis on Pixabay\nCredits Song: Angelic Opening by
-    Deane Patterson on PIxabay \n\n\n\n\n\n\nThanks for Playing!"
+    Angelic Ambient 02 by Ura Megis on Pixabay\nCredits Song: Angelic Eternal Flame
+    by Ura Megis on Pixabay\n\n\n\n\n\n\nThanks for Playing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b76bc8ab4eb9d4c47b7b15df586df8e7, type: 2}
   m_sharedMaterial: {fileID: -3322184125334774771, guid: b76bc8ab4eb9d4c47b7b15df586df8e7, type: 2}
@@ -829,7 +832,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e44a743e555054ff489195778c8245d6, type: 3}
+  m_Resource: {fileID: 8300000, guid: ad01d5250e0f445fb88bd95c3993522c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
