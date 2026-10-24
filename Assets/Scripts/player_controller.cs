@@ -32,7 +32,7 @@ public class player_controller : MonoBehaviour
 
     void Update()
     {
-
+    if (Time.timeScale == 0f) return;
         #region Handles Movment
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
@@ -73,6 +73,10 @@ public class player_controller : MonoBehaviour
             player_camera.transform.localRotation = Quaternion.Euler(rotation_x, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * look_speed, 0);
         }
+        else
+         {
+        move_direction = Vector3.zero; 
+         }
 
         #endregion
     }

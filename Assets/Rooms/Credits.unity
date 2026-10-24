@@ -376,11 +376,12 @@ MonoBehaviour:
     - Ryley Hansen\nNarrative Designer - Ilan \nPlayer Programmer - Ryley Hansen\nSound
     Designer - Hannah Marney\nUI/UX Designer - Hannah Marney\n\nAssets\n\nRetro Fantasy
     Kit - Kenney Art\nRetro Textures Fantasy - Kenney Art\nAnimated Characters Retro
-    - Kenney Art\nHeaven And Hell Voxel Assets - RancidMilk on Itch.io\n\t https://rancidmilk.itch.io/heaven-and-hell\n\nFantasy
+    - Kenney Art\nHeaven And Hell Voxel Assets - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\n\nFantasy
     skybox:  \nRender Knight on the Unity Store\n\nMusic/Sound Effects:\n\nMain Menu
-    Song: For When It Rains by  Juan Sanchez on Pixabay\nWin Screen Music:\nLose
-    Screen Music:\nGameplay Music:\nCredits Song: Angelic Opening by Deane Patterson
-    on PIxabay \n\n\n\n\n\n\nThanks for Playing!"
+    Song: For When It Rains by  Juan Sanchez on Pixabay\nWin Screen Music:\nInstruction
+    Screen Music: Angelic Power by Ura Megis on Pixabay\nGameplay Music: Restful
+    Angelic Ambient 02 by Ura Megis on Pixabay\nCredits Song: Angelic Opening by
+    Deane Patterson on PIxabay \n\n\n\n\n\n\nThanks for Playing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b76bc8ab4eb9d4c47b7b15df586df8e7, type: 2}
   m_sharedMaterial: {fileID: -3322184125334774771, guid: b76bc8ab4eb9d4c47b7b15df586df8e7, type: 2}

@@ -52,6 +52,7 @@
     <Compile Include="Assets/Scripts/player_controller.cs" />
     <Compile Include="Assets/Scripts/User Interface/ScrollingText.cs" />
     <Compile Include="Assets/Scripts/GreedTrapChest.cs" />
+    <Compile Include="Assets/Scripts/User Interface/Pause.cs" />
     <Compile Include="Assets/Scripts/ChestGate.cs" />
     <Compile Include="Assets/Scripts/shadow_follower.cs" />
     <Compile Include="Assets/Scripts/User Interface/Dialogue_script.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Assets/Scripts/Score_script.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/text_trigger.cs" />
+    <Compile Include="Assets/Scripts/User Interface/PersistantMusic.cs" />
     <Compile Include="Assets/Scripts/win_plane.cs" />
   </ItemGroup>
   <ItemGroup>
