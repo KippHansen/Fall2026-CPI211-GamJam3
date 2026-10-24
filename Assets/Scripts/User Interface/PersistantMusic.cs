@@ -10,6 +10,11 @@ public class PersistentMusic : MonoBehaviour
 
     private void Awake()
     {
+        if (instance != null && instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
         // Prevent duplicate persistent music objects across reloads/scenes
         if (instance == null)
         {
@@ -17,17 +22,19 @@ public class PersistentMusic : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             audioSource = GetComponent<AudioSource>();
             
-            // Force play on first initialization if current scene allows it
             SceneManager.sceneLoaded += OnSceneLoaded;
-            HandleMusicForScene(SceneManager.GetActiveScene());
         }
-        else
+        /*else
         {
-            Destroy(gameObject);
-            return;
-        }
+            
+        }*/
     }
 
+    private void Start ()
+    {
+        HandleMusicForScene(SceneManager.GetActiveScene());
+
+    }
     private void OnDestroy()
     {
         if (instance == this)
@@ -41,35 +48,36 @@ public class PersistentMusic : MonoBehaviour
         HandleMusicForScene(scene);
     }
 
-    private void HandleMusicForScene(Scene scene)
+    private void HandleMusicForScene(Scene scene) 
+{
+    bool stopMusic = false;
+
+    // Check if the current scene is a menu/stop scene
+    foreach (string sceneName in scenesToStopMusic) 
     {
-        bool stopMusic = false;
-
-        foreach (string sceneName in scenesToStopMusic)
+        if (scene.name == sceneName) 
         {
-            if (scene.name == sceneName)
-            {
-                stopMusic = true;
-                break;
-            }
-        }
-
-        if (stopMusic)
-        {
-            if (audioSource.isPlaying)
-            {
-                audioSource.Stop();
-            }
-        }
-        else
-        {
-            // Only start playing from the beginning if it was stopped completely 
-            // (like coming from a scene where BGM wasn't allowed).
-            // This will NOT restart the song if it's already playing during a reload.
-            if (!audioSource.isPlaying)
-            {
-                audioSource.Play();
-            }
+            stopMusic = true;
+            break;
         }
     }
+
+    if (stopMusic) 
+    {
+        if (audioSource.isPlaying) 
+        {
+            audioSource.Stop(); 
+        }
+    } 
+    else 
+    {
+        // FIX: If we are in a level scene, make sure it is playing.
+        // If it was stopped at the main menu, this forces it to start fresh.
+        if (!audioSource.isPlaying) 
+        {
+            audioSource.Play(); 
+        }
+    }
+}
+
 }
