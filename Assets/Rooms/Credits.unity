@@ -335,8 +335,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 771}
-  m_SizeDelta: {x: 650, y: 1800}
+  m_AnchoredPosition: {x: 0, y: -1088}
+  m_SizeDelta: {x: 700, y: 1800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637001814
 MonoBehaviour:
@@ -373,12 +373,14 @@ MonoBehaviour:
   m_text: "Credits\n\nArt/Programming\n\nAI Programmer - \nAnimator - Hannah Marney\nConcept
     Artist - Hannah Marney\nGameplay Programmer - Ryley Hansen\nLevel Designer -
     Ava\nLevel Programmer - Ilan\nLevel Programmer - Matty Evans\nLevel Programmer
-    - Ryley Hansen\nNarrative Designer - Ilan \nSound Designer/Sound Engineer -\nUI/UX
-    Designer - Hannah Marney\n\nAssets\n\nSkybox:\nRetro Fantasy Medival assets -
-    Kenney Art\nLose Screen Floor Height map/Normal Map by Nick on Techarthub\n\nMusic/Sound
-    Effects:\n\nMain Menu Song: For When It Rains by  Juan Sanchez on Pixabay\nWin
-    Screen Music:\nLose Screen Music:\nGameplay Music:\nCredits Song: Angelic Opening
-    by Deane Patterson on PIxabay \n\n\n\n\n\n\nThanks for Playing!"
+    - Ryley Hansen\nNarrative Designer - Ilan \nPlayer Programmer - Ryley Hansen\nSound
+    Designer - Hannah Marney\nUI/UX Designer - Hannah Marney\n\nAssets\n\nRetro Fantasy
+    Kit - Kenney Art\nRetro Textures Fantasy - Kenney Art\nAnimated Characters Retro
+    - Kenney Art\nHeaven And Hell Voxel Assets - RancidMilk on Itch.io\n\t https://rancidmilk.itch.io/heaven-and-hell\n\nFantasy
+    skybox:  \nRender Knight on the Unity Store\n\nMusic/Sound Effects:\n\nMain Menu
+    Song: For When It Rains by  Juan Sanchez on Pixabay\nWin Screen Music:\nLose
+    Screen Music:\nGameplay Music:\nCredits Song: Angelic Opening by Deane Patterson
+    on PIxabay \n\n\n\n\n\n\nThanks for Playing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -471,8 +473,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScrollingText
   moveSpeed: 35
-  startPositionY: -913
-  endPositionY: 771
+  startPositionY: -1100
+  endPositionY: 985
 --- !u!1 &680232390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,8 +1106,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1187,6 +1189,7 @@ GameObject:
   - component: {fileID: 1778028672}
   - component: {fileID: 1778028671}
   - component: {fileID: 1778028670}
+  - component: {fileID: 1778028673}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1308,6 +1311,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778028668}
   m_CullTransparentMesh: 1
+--- !u!114 &1778028673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778028668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Outline
+  m_EffectColor: {r: 1, g: 1, b: 1, a: 0.5}
+  m_EffectDistance: {x: 2, y: -2}
+  m_UseGraphicAlpha: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
