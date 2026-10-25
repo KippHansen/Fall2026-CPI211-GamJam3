@@ -926,6 +926,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 82d38b24b33edd84289d239179b55d1e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 175947888}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 82d38b24b33edd84289d239179b55d1e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 175947891}
   m_SourcePrefab: {fileID: 100100000, guid: 82d38b24b33edd84289d239179b55d1e, type: 3}
 --- !u!4 &175947886 stripped
 Transform:
@@ -958,6 +961,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 0}
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &175947891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175947887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3878df3e1062e24dbbc43a819943fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WinPlane
+  nextSceneName: Wrath_Scene
 --- !u!4 &178824754 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9141ce51a70f1f442a2cfcafa4474e3a, type: 3}
@@ -4461,10 +4477,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: YOU FOOL. GREED WILL ONLY SET YOU BACK! ENJOY MAKING IT ALL THE WAY HERE
+  m_text: YOU FOOL... GREED WILL ONLY SET YOU BACK! ENJOY MAKING IT ALL THE WAY HERE
     AGAIN
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b76bc8ab4eb9d4c47b7b15df586df8e7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8102,9 +8118,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d3a9c2ed6da9574393ac0ce04acb131, type: 3}
       insertIndex: -1
       addedObject: {fileID: 805951853}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d3a9c2ed6da9574393ac0ce04acb131, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 805951852}
   m_SourcePrefab: {fileID: 100100000, guid: 1d3a9c2ed6da9574393ac0ce04acb131, type: 3}
 --- !u!4 &805951850 stripped
 Transform:
@@ -8116,27 +8129,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d3a9c2ed6da9574393ac0ce04acb131, type: 3}
   m_PrefabInstance: {fileID: 805951849}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &805951852
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805951851}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 0.099999994}
-  m_Center: {x: 0, y: 0.50000006, z: 0.050000235}
 --- !u!64 &805951853
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13289,6 +13281,73 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9141ce51a70f1f442a2cfcafa4474e3a, type: 3}
+--- !u!1 &1394252823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1394252824}
+  - component: {fileID: 1394252826}
+  - component: {fileID: 1394252825}
+  m_Layer: 0
+  m_Name: WinPlane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1394252824
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394252823}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.6, y: -7.1550007, z: 16.78}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1791180101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1394252825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394252823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3878df3e1062e24dbbc43a819943fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WinPlane
+  nextSceneName: Wrath_Scene
+--- !u!65 &1394252826
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394252823}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.16, y: 20.16, z: 1}
+  m_Center: {x: 0.77, y: 0, z: 0}
 --- !u!1001 &1430301765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16558,6 +16617,7 @@ Transform:
   m_Children:
   - {fileID: 340594263}
   - {fileID: 1363013177}
+  - {fileID: 1394252824}
   m_Father: {fileID: 846169611}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1798448814

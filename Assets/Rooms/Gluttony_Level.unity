@@ -324,7 +324,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: He's out to eat you! RUN!!!!!
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b76bc8ab4eb9d4c47b7b15df586df8e7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1010,6 +1010,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1126798380}
     m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 86c26670da97f7b43a7ea5adaf031995, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 86c26670da97f7b43a7ea5adaf031995, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 86c26670da97f7b43a7ea5adaf031995, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.13
@@ -3623,7 +3631,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.76
+      value: 5.159848
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalScale.y
@@ -3631,7 +3639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.76
+      value: 5.159848
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3675,7 +3683,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4473,7 +4481,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalScale.x
-      value: 3.76
+      value: 5.159848
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalScale.y
@@ -4481,7 +4489,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalScale.z
-      value: 3.76
+      value: 5.159848
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4525,7 +4533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: efed058235b839c46b6a51dd0c70e364, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4622,7 +4630,7 @@ Transform:
   m_GameObject: {fileID: 1598255272}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.68335, y: 3.735, z: 88.29}
+  m_LocalPosition: {x: -0.68335, y: 3.735, z: 86.43}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6080,7 +6088,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6246904668146879585, guid: 5ba0f11e09b6d4422aa40060d67d3646, type: 3}
       propertyPath: 'scenesToStopMusic.Array.data[4]'
-      value: Win_Scren
+      value: Win_Screen
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

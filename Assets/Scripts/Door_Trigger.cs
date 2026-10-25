@@ -30,7 +30,10 @@ IEnumerator  OnTriggerEnter(Collider other)
                 {
                     dialogueScript.maintext.text= " CONGRATULATIONS YOU HAVE AVOIDED DAMNATION";
                      yield return new WaitForSeconds(2.0f);
-                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+                     Time.timeScale = 1f;
+                     Cursor.lockState = CursorLockMode.None;
+                     Cursor.visible = true;
+                     SceneManager.LoadSceneAsync("Win_Screen");
                 }else
                 {
              yield return new WaitForSeconds(3.0f);
