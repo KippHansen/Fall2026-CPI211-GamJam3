@@ -3794,6 +3794,21 @@ MonoBehaviour:
     correctAnswer: a secret
     slightwrongAnswer: guilt
     dumbAnswer: Memories
+  - question: I can fly without wings. I can cry without eyes. Wherever I go, darkness
+      follows me
+    correctAnswer: 'a cloud '
+    slightwrongAnswer: a bat
+    dumbAnswer: ghost
+  - question: What has roots that nobody sees, is taller than trees, up it goes,
+      and yet never grows?
+    correctAnswer: A mountain
+    slightwrongAnswer: A skyscraper
+    dumbAnswer: A cloud
+  - question: have keys but no locks. I have a space but no room. You can enter,
+      but cannot go outside
+    correctAnswer: A Keyboard
+    slightwrongAnswer: A piano
+    dumbAnswer: A Vault
   doorOutcomes: 000000000100000002000000
   currentRiddle:
     question: 
@@ -4243,7 +4258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9389654bd50cc3f4e8c7dde02ddfd3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  doorIndex: 0
+  doorIndex: 2
   dialogueScript: {fileID: 493417455}
   loopedspawn: {fileID: 543809319}
 --- !u!65 &630718722
@@ -5652,7 +5667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9389654bd50cc3f4e8c7dde02ddfd3d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door_Trigger
-  doorIndex: 2
+  doorIndex: 0
   dialogueScript: {fileID: 493417455}
   loopedspawn: {fileID: 543809319}
 --- !u!65 &943184451

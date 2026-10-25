@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door_Trigger : MonoBehaviour
 {
@@ -16,6 +17,7 @@ IEnumerator  OnTriggerEnter(Collider other)
         if(other.CompareTag("Player"))
         {
             int answer = dialogueScript.doorOutcomes[doorIndex];
+            GetComponent<Collider>().enabled = false;
             if(answer == 2 )
             {
                 
@@ -24,12 +26,18 @@ IEnumerator  OnTriggerEnter(Collider other)
              dialogueScript.riddlenum++;
              dialogueScript.maintext.text = "Correct";
              //wait
-             
+              if(dialogueScript.riddlenum == 5)
+                {
+                    dialogueScript.maintext.text= " CONGRATULATIONS YOU HAVE AVOIDED DAMNATION";
+                     yield return new WaitForSeconds(2.0f);
+                     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+                }else
+                {
              yield return new WaitForSeconds(3.0f);
              dialogueScript.maintext.text = "proceed to the next question";
              yield return new WaitForSeconds(3.0f);
 
-            
+                }
             }else if (answer == 1)
             { 
                 dialogueScript.floorScore += 1;
@@ -67,6 +75,8 @@ IEnumerator  OnTriggerEnter(Collider other)
             }
         
 dialogueScript.GetComponent<Collider>().enabled = true;
+GetComponent<Collider>().enabled = true;
+        
         
         }   
         }
