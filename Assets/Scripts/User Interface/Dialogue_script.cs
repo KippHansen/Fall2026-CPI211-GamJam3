@@ -10,6 +10,8 @@ using System.Runtime.CompilerServices;
 public class Dialogue_script: MonoBehaviour
 {
     public int floorScore;
+   public int riddlenum = 1;
+
     //for the text display
 public GameObject uiCanvas;
  public TextMeshProUGUI maintext;
@@ -21,7 +23,13 @@ public RiddleData[] riddles;
 public int[] doorOutcomes = new int[3];
  //
  private List<RiddleData> availableRiddles = new List<RiddleData>();
+ public RiddleData currentRiddle;
  public int currRiddleIndex;
+
+ void Start()
+    {
+        availableRiddles = new List<RiddleData>(riddles);
+    }
 
 
     private void OnTriggerEnter(Collider Other)
@@ -51,10 +59,16 @@ public int[] doorOutcomes = new int[3];
 
     void RunRiddle()
     {
+        if (availableRiddles.Count == 0)
+        {
+            availableRiddles = new List<RiddleData>(riddles);
+        }
         // first pick a random riddle from the riddle bank
-        int randomIndex= Random.Range(0, riddles.Length);
-        RiddleData picked = riddles[randomIndex];
-        maintext.text= picked.question;
+        int randomIndex= Random.Range(0, availableRiddles.Count);
+      currentRiddle = availableRiddles[randomIndex];
+
+      maintext.text = "Riddle" + riddlenum + ":\n" + currentRiddle.question;
+
 // shuffles the answers 
         List<int>outcomes = new List<int>{0,1,2};
   for(int i =0; i < outcomes.Count; i++)
@@ -68,27 +82,27 @@ public int[] doorOutcomes = new int[3];
 for(int i = 0 ; i<3; i++)
         {
             doorOutcomes[i] = outcomes[i];
-            if (outcomes[i] == 0)
+            if (outcomes[i] == 2)
             {
-                doorTexts[i].text = picked.correctAnswer;
+                doorTexts[i].text = currentRiddle.correctAnswer;
 
             }
             else if(outcomes[i] == 1)
             {
-                doorTexts[i].text = picked.slightwrongAnswer;
+                doorTexts[i].text = currentRiddle.slightwrongAnswer;
             }
-            else if(outcomes[i] == 2)
+            else if(outcomes[i] == 0)
             {
-                doorTexts[i].text = picked.dumbAnswer;
+                doorTexts[i].text = currentRiddle.dumbAnswer;
             }
             doorTexts[i].gameObject.SetActive(true);
         }
     }
      public void removeRiddle()
 {
-    if( availableRiddles.Count >0)
+    if( availableRiddles.Contains(currentRiddle))
     {
-        availableRiddles.RemoveAt(currRiddleIndex);
+        availableRiddles.Remove(currentRiddle);
     }
 }
 
