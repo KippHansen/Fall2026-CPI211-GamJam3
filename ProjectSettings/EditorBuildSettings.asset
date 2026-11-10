@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/Win_Screen.unity
     guid: 4182498425d3c4ebfae2b6fb485c250f
+  - enabled: 1
+    path: Assets/Rooms/Wrath_Scene.unity
+    guid: 0c99e4622a4ce2441935cba83fc3c832
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
