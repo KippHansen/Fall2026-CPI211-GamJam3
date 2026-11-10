@@ -54,8 +54,10 @@
     <Compile Include="Assets\Scripts\GhostRunner.cs" />
     <Compile Include="Assets\Scripts\GreedTrapChest.cs" />
     <Compile Include="Assets\Scripts\User Interface\Pause.cs" />
-    <Compile Include="Assets\Sloth_turret.cs" />
-    <Compile Include="Assets\Sloth_Conveyor_belt.cs" />
+    <Compile Include="Assets\Scripts\User Interface\Score_script.cs" />
+    <Compile Include="Assets\Scripts\Sloth_turret.cs" />
+    <Compile Include="Assets\Scripts\Sloth_Conveyor_belt.cs" />
+    <Compile Include="Assets\Scripts\User Interface\ScoreBoard.cs" />
     <Compile Include="Assets\Scripts\ChestGate.cs" />
     <Compile Include="Assets\Scripts\shadow_follower.cs" />
     <Compile Include="Assets\Scripts\Door_Trigger.cs" />
@@ -65,7 +67,8 @@
     <Compile Include="Assets\Scripts\death_plane.cs" />
     <Compile Include="Assets\Scripts\monster_spawner.cs" />
     <Compile Include="Assets\Scripts\player_spawner.cs" />
-    <Compile Include="Assets\Scripts\Score_script.cs" />
+    <Compile Include="Assets\Scripts\User Interface\Timer.cs" />
+    <Compile Include="Assets\Art\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\text_trigger.cs" />
     <Compile Include="Assets\Scripts\User Interface\PersistantMusic.cs" />
@@ -78,7 +81,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-    <None Include="Assets\ithappy\Cute_Furniture_Free\Render_Pipeline_Convert\Render_Pipeline_Instructions_Unity_6.txt" />
+    <None Include="Assets\Building assets\ithappy\Cute_Furniture_Free\Render_Pipeline_Convert\Render_Pipeline_Instructions_Unity_6.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
@@ -91,7 +94,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Textures\Free Realistic Textures\README.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-    <None Include="Assets\PolyKebap\Candles\Shaders\CandleFlameShader.shader" />
+    <None Include="Assets\Building assets\PolyKebap\Candles\Shaders\CandleFlameShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
