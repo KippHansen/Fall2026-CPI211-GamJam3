@@ -6,6 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class player_controller : MonoBehaviour
 {
+    private Animator controller;
     public Camera player_camera;
     public float walk_speed;
     public float run_speed;
@@ -26,6 +27,7 @@ public class player_controller : MonoBehaviour
     void Start()
     {
         character_controller = GetComponent<CharacterController>();
+        controller = GetComponentInChildren<Animator>();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -45,11 +47,25 @@ public class player_controller : MonoBehaviour
         move_direction = (forward * curSpeedX) + (right * curSpeedY);
 
         #endregion
+        if (controller != null) 
+    {
+        // Check if there is any forward/backward input
+        bool isMovingForward = Input.GetAxis("Vertical") > 0;
+        
+        bool shouldRun = isMovingForward && isRunning;
+        bool shouldWalk = isMovingForward && !isRunning;
+        
+        // Update your Animator parameters
+        controller.SetBool("IsWalking", shouldWalk);
+        controller.SetBool("IsRunning", shouldRun);
+    }
 
         #region Handles Jumping
         if (Input.GetButton("Jump") && can_move && character_controller.isGrounded)
         {
+            controller.SetTrigger("Jump");
             move_direction.y = jump_power;
+        
         }
         else
         {
@@ -59,6 +75,17 @@ public class player_controller : MonoBehaviour
         if (!character_controller.isGrounded)
         {
             move_direction.y -= gravity * Time.deltaTime;
+        }
+        if (controller != null)
+        {
+            controller.SetBool("isGrounded", character_controller.isGrounded);
+
+            if (!character_controller.isGrounded)
+            {
+                // Force running to false while in mid-air so falling takes priority
+                controller.SetBool("IsRunning", false); 
+                controller.SetBool("IsWalking", false);
+            }
         }
 
         #endregion
