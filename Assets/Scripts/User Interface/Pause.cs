@@ -7,7 +7,7 @@ public class Pause : MonoBehaviour
     public player_controller playerScript;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
          if (!isPaused)
             {

@@ -251,7 +251,7 @@ RectTransform:
   m_GameObject: {fileID: 555505808}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2.1906326, y: 2.0166, z: 2.0166}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1349885365}
@@ -335,7 +335,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1414}
+  m_AnchoredPosition: {x: 0, y: 2761}
   m_SizeDelta: {x: 700, y: 1800}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &637001814
@@ -370,25 +370,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Credits\n\nThemes\n\nRapture\nStairway to Heaven\nAtonement\n\nArt/Programming\n\nAI
+  m_text: "CREDITS:\n\nThemes:\n\nRapture\nStairway to Heaven\nAtonement\n\n---------------------\n\nArt/Programming:\n\nAI
     Programmer - Ryley Hansen \nAnimator - Hannah Marney\nConcept Artist - Hannah
     Marney\nGameplay Programmer - Ryley Hansen\nLevel Designer - Ava Totosz\nLevel
     Programmer - Ilan Ahmed\nLevel Programmer - Matty Evans\nLevel Programmer - Ryley
     Hansen\nNarrative Designer - Ilan Ahmed\nPlayer Programmer - Ryley Hansen\nSound
-    Designer - Hannah Marney\nUI/UX Designer - Hannah Marney\n\nAssets\n\nRetro Fantasy
-    Kit - Kenney Art\nRetro Textures Fantasy - Kenney Art\nAnimated Characters Retro
-    - Kenney Art\nHeaven And Hell Voxel Assets - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\nPBR
+    Designer - Hannah Marney\nSound Designer - Ryley Hansen\nUI/UX Designer - Hannah
+    Marney\n\n---------------------\n\nAssets:\n\nRetro Fantasy Kit - Kenney Art\nRetro
+    Textures Fantasy - Kenney Art\nAnimated Characters Retro - Kenney Art\nHeaven
+    And Hell Voxel Assets - RancidMilk on Itch.io\nhttps://rancidmilk.itch.io/heaven-and-hell\nPBR
     - Hospital Horror Pack. Free - DNK_DEV on The Unity Store\nFurniture FREE Pak
     - DEXSOFT on The Unity Store\n\nFantasy skybox:  \nRender Knight on The Unity
-    Store\n\nMusic/Sound Effects:\n\nMain Menu Song: For When It Rains by  Juan Sanchez
-    on Pixabay\nWin Screen Music: Angelic Opening by Deane Patterson on PIxabay\nScoreboard
-    music: Silver Dust (Angelic Theta Binaural) by Siarhei Korbut on Pixabay\nInstruction
-    Screen Music: Angelic Power by Ura Megis on Pixabay\nGameplay Music: Restful
-    Angelic Ambient 02 by Ura Megis on Pixabay\nCredits Song: Angelic Eternal Flame
-    by Ura Megis on Pixabay\n\n\n\n\n\n\nThanks for Playing!"
+    Store\n\n---------------------\n\nMusic/Sound Effects:\n\nMain Menu Song: For
+    When It Rains by  Juan Sanchez on Pixabay\nWin Screen Music: Angelic Opening
+    by Deane Patterson on PIxabay\nScoreboard music: Silver Dust (Angelic Theta Binaural)
+    by Siarhei Korbut on Pixabay\nInstruction Screen Music: Angelic Power by Ura
+    Megis on Pixabay\nGameplay Music: Restful Angelic Ambient 02 by Ura Megis on
+    Pixabay\nCredits Song: Angelic Eternal Flame by Ura Megis on Pixabay\n\n\n\n\n\n\n\n\n\n\n\n\nThanks
+    for Playing!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 02ff213ce057e4f2580a150dd02029bc, type: 2}
+  m_sharedMaterial: {fileID: 1359493417847679024, guid: 02ff213ce057e4f2580a150dd02029bc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -420,7 +422,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 4096
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -451,7 +453,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: -1885.0654}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -477,9 +479,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f6477f11d85b46dfa0766993e5787b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScrollingText
-  moveSpeed: 35
-  startPositionY: -1100
-  endPositionY: 1414
+  moveSpeed: 50
+  startPositionY: -1209
+  endPositionY: 2761
 --- !u!1 &680232390
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,8 +1106,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Main Menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 02ff213ce057e4f2580a150dd02029bc, type: 2}
+  m_sharedMaterial: {fileID: 1359493417847679024, guid: 02ff213ce057e4f2580a150dd02029bc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1211,7 +1213,7 @@ RectTransform:
   m_GameObject: {fileID: 1778028668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.6451, y: 1.6451, z: 1.6451}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1578175819}
@@ -1219,7 +1221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -191}
+  m_AnchoredPosition: {x: 4, y: -372}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1778028670

@@ -31,8 +31,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5415479734271958856}
   - {fileID: 8038861055866694360}
+  - {fileID: 3512683710064094528}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!143 &9089214557783636090
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a476439dc07acae43bfa1f9a3aa05db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::player_controller
-  player_camera: {fileID: 2648473680312483414}
+  player_camera: {fileID: 2778778633409796376}
   walk_speed: 6
   run_speed: 12
   jump_power: 8
@@ -80,7 +80,7 @@ MonoBehaviour:
   look_speed: 2
   look_x_limit: 45
   can_move: 1
---- !u!1 &8853201000994949970
+--- !u!1 &8371931187675678891
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,39 +88,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5415479734271958856}
-  - component: {fileID: 2648473680312483414}
-  - component: {fileID: 6458051017813392971}
-  - component: {fileID: 1464904302996747233}
+  - component: {fileID: 3512683710064094528}
+  - component: {fileID: 2778778633409796376}
+  - component: {fileID: 386325904225779034}
+  - component: {fileID: 524049698120763373}
   m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
+  m_Name: Camera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5415479734271958856
+--- !u!4 &3512683710064094528
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853201000994949970}
+  m_GameObject: {fileID: 8371931187675678891}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.025, y: 0.582, z: 0.139}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.513, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7526363430943032876}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &2648473680312483414
+--- !u!20 &2778778633409796376
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853201000994949970}
+  m_GameObject: {fileID: 8371931187675678891}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -150,7 +150,7 @@ Camera:
   field of view: 60
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1
+  m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -165,26 +165,26 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!81 &6458051017813392971
+--- !u!81 &386325904225779034
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853201000994949970}
+  m_GameObject: {fileID: 8371931187675678891}
   m_Enabled: 1
---- !u!114 &1464904302996747233
+--- !u!114 &524049698120763373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8853201000994949970}
+  m_GameObject: {fileID: 8371931187675678891}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
@@ -196,7 +196,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
+  m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -285,6 +285,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: characterMedium
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: e4e9e6062f111df4a81fd0e8e1695fdf, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0afc824927d4342fab2b772824e9790d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
