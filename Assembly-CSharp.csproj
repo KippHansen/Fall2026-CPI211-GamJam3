@@ -69,7 +69,6 @@
     <Compile Include="Assets/Scripts/player_spawner.cs" />
     <Compile Include="Assets/Scripts/User Interface/Timer.cs" />
     <Compile Include="Assets/Scripts/nonspecific/win_plane.cs" />
-    <Compile Include="Assets/Scripts/Greed/GreedTrapChest.cs" />
     <Compile Include="Assets/Scripts/Greed/New Chest/TrapChestInteractable.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/Scripts/gluttony/monster_spawner.cs" />
@@ -79,6 +78,7 @@
     <Compile Include="Assets/Scripts/nonspecific/Interactions/TestInteractable.cs" />
     <Compile Include="Assets/Scripts/gluttony/text_trigger.cs" />
     <Compile Include="Assets/Scripts/gluttony/shadow_follower.cs" />
+    <Compile Include="Assets/Scripts/Greed/Old Chest/GreedTrapChest.cs" />
     <Compile Include="Assets/Scripts/nonspecific/player_controller.cs" />
     <Compile Include="Assets/Scripts/sloth/Sloth_Conveyor_belt.cs" />
   </ItemGroup>

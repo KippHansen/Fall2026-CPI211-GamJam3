@@ -396,6 +396,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -410,80 +414,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 89340736}
+      addedObject: {fileID: 1952961741}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 89340735}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 89340734}
+      addedObject: {fileID: 1952961740}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &89340732 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 89340731}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &89340733 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 89340731}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &89340734
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89340732}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 89340733}
-  animationClipName: ChestAnim
---- !u!65 &89340735
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89340732}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &89340736
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 89340732}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &96259541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1031,6 +971,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -1045,80 +989,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 182325901}
+      addedObject: {fileID: 1099023997}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 182325900}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 182325899}
+      addedObject: {fileID: 1099023996}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &182325897 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 182325896}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &182325898 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 182325896}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &182325899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182325897}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 182325898}
-  animationClipName: ChestAnim
---- !u!65 &182325900
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182325897}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &182325901
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182325897}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &200379797 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 82d38b24b33edd84289d239179b55d1e, type: 3}
@@ -1202,6 +1082,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -1216,80 +1100,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 211105957}
+      addedObject: {fileID: 982147622}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 211105956}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 211105955}
+      addedObject: {fileID: 982147621}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &211105953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 211105952}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &211105954 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 211105952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &211105955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211105953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 211105954}
-  animationClipName: ChestAnim
---- !u!65 &211105956
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211105953}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &211105957
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211105953}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &213236679 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: d12ed7df4e276b44ab00b09052959cdc, type: 3}
@@ -1404,6 +1224,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -1418,80 +1242,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 227728234}
+      addedObject: {fileID: 1923247896}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 227728233}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 227728232}
+      addedObject: {fileID: 1923247895}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &227728230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 227728229}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &227728231 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 227728229}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &227728232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227728230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 227728231}
-  animationClipName: ChestAnim
---- !u!65 &227728233
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227728230}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &227728234
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227728230}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &256822460 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6507183777876325090, guid: 3217370eb02f0c443a4d406b96b1cf1e, type: 3}
@@ -3331,6 +3091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -3345,80 +3109,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 320429169}
+      addedObject: {fileID: 1545550345}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 320429168}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 320429167}
+      addedObject: {fileID: 1545550344}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &320429165 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 320429164}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &320429166 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 320429164}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &320429167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320429165}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 320429166}
-  animationClipName: ChestAnim
---- !u!65 &320429168
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320429165}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &320429169
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 320429165}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &321293644 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d3a9c2ed6da9574393ac0ce04acb131, type: 3}
@@ -5002,6 +4702,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -5016,80 +4720,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 488397957}
+      addedObject: {fileID: 591868523}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 488397956}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 488397955}
+      addedObject: {fileID: 591868522}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &488397953 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 488397952}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &488397954 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 488397952}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &488397955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488397953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 488397954}
-  animationClipName: ChestAnim
---- !u!65 &488397956
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488397953}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &488397957
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 488397953}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &496771479 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
@@ -5382,6 +5022,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -5396,40 +5040,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 520544875}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 520544874}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 520544873}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 520544872}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &520544871 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 520544870}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &520544872 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 520544870}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &520544873
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 520544871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 520544872}
-  animationClipName: ChestAnim
---- !u!65 &520544874
-BoxCollider:
+--- !u!64 &520544872
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5444,32 +5066,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &520544875
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &520544873
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520544871}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &526254253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5522,6 +5137,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -5536,80 +5155,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 526254258}
+      addedObject: {fileID: 2007264635}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 526254257}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 526254256}
+      addedObject: {fileID: 2007264634}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &526254254 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 526254253}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &526254255 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 526254253}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &526254256
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526254254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 526254255}
-  animationClipName: ChestAnim
---- !u!65 &526254257
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526254254}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &526254258
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526254254}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &530239910
 GameObject:
   m_ObjectHideFlags: 0
@@ -5711,6 +5266,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -5725,80 +5284,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 539913358}
+      addedObject: {fileID: 1181955752}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 539913357}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 539913356}
+      addedObject: {fileID: 1181955751}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &539913354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 539913353}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &539913355 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 539913353}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &539913356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539913354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 539913355}
-  animationClipName: ChestAnim
---- !u!65 &539913357
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539913354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &539913358
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 539913354}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &541939069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5843,6 +5338,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 488397952}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &591868522
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488397953}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &591868523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488397953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1 &594591379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5623946549493477661, guid: a97064e9e3851b646a411d186bc6d240, type: 3}
@@ -6003,6 +5533,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -6017,80 +5551,153 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 599670383}
+      addedObject: {fileID: 667273516}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 599670382}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 599670381}
+      addedObject: {fileID: 667273515}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &599670379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 599670378}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &599670380 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 599670378}
+--- !u!1 &613600069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &599670381
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 613600070}
+  - component: {fileID: 613600072}
+  - component: {fileID: 613600071}
+  m_Layer: 5
+  m_Name: InterationText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &613600070
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613600069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1878655441}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 300, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &613600071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599670379}
+  m_GameObject: {fileID: 613600069}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 599670380}
-  animationClipName: ChestAnim
---- !u!65 &599670382
-BoxCollider:
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 02ff213ce057e4f2580a150dd02029bc, type: 2}
+  m_sharedMaterial: {fileID: 1359493417847679024, guid: 02ff213ce057e4f2580a150dd02029bc, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &613600072
+CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599670379}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &599670383
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599670379}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 613600069}
+  m_CullTransparentMesh: 1
 --- !u!1 &636175959
 GameObject:
   m_ObjectHideFlags: 0
@@ -6849,6 +6456,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 599670378}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &667273515
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599670379}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &667273516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599670379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &679498623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6901,6 +6543,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -6915,40 +6561,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 679498628}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 679498627}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 679498626}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 679498625}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &679498624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 679498623}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &679498625 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 679498623}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &679498626
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 679498624}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 679498625}
-  animationClipName: ChestAnim
---- !u!65 &679498627
-BoxCollider:
+--- !u!64 &679498625
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -6963,32 +6587,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &679498628
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &679498626
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 679498624}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1 &695940050
 GameObject:
   m_ObjectHideFlags: 0
@@ -7959,6 +7576,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -7973,80 +7594,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 768661310}
+      addedObject: {fileID: 1568764761}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 768661309}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 768661308}
+      addedObject: {fileID: 1568764760}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &768661306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 768661305}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &768661307 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 768661305}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &768661308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768661306}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 768661307}
-  animationClipName: ChestAnim
---- !u!65 &768661309
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768661306}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &768661310
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768661306}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &805951849
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9603,6 +9160,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -9617,40 +9178,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 875321517}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 875321516}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 875321515}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 875321514}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &875321513 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 875321512}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &875321514 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 875321512}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &875321515
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875321513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 875321514}
-  animationClipName: ChestAnim
---- !u!65 &875321516
-BoxCollider:
+--- !u!64 &875321514
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9665,32 +9204,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &875321517
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &875321515
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875321513}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &885193794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9743,6 +9275,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -9757,80 +9293,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 885193799}
+      addedObject: {fileID: 1629229058}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 885193798}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 885193797}
+      addedObject: {fileID: 1629229057}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &885193795 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 885193794}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &885193796 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 885193794}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &885193797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885193795}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 885193796}
-  animationClipName: ChestAnim
---- !u!65 &885193798
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885193795}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &885193799
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 885193795}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &910452909
 GameObject:
   m_ObjectHideFlags: 0
@@ -10144,6 +9616,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 211105952}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &982147621
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211105953}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &982147622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211105953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &983076374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10217,6 +9724,108 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9141ce51a70f1f442a2cfcafa4474e3a, type: 3}
+--- !u!1 &983453410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983453414}
+  - component: {fileID: 983453413}
+  - component: {fileID: 983453412}
+  - component: {fileID: 983453411}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &983453411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983453410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &983453412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983453410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 1
+--- !u!223 &983453413
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983453410}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &983453414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983453410}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.86}
+  m_LocalScale: {x: 0.019948, y: 0.019948, z: 0.019948}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 995007800}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 8.53, y: 4.4}
+  m_SizeDelta: {x: 774.5, y: 485}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &984317792
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10269,6 +9878,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -10283,40 +9896,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 984317797}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 984317796}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 984317795}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 984317794}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &984317793 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 984317792}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &984317794 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 984317792}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &984317795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984317793}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 984317794}
-  animationClipName: ChestAnim
---- !u!65 &984317796
-BoxCollider:
+--- !u!64 &984317794
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -10331,32 +9922,166 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &984317797
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &984317795
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 984317793}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
+--- !u!1 &995007799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 995007800}
+  - component: {fileID: 995007802}
+  - component: {fileID: 995007801}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &995007800
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995007799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 983453414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -106, y: 0}
+  m_SizeDelta: {x: 1000, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &995007801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995007799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Welcome to the room of chests, in here you must try your best.\nTest your
+    luck and you shall see, in one you will find the key. \nEvery chest here costs
+    a point, so choose with care or disappoint.\nMake sure don\u2019t fall into greed,
+    only one has what you need. \nListen here to what I say, otherwise in hell you\u2019ll
+    pay."
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4285444032
+  m_fontColor: {r: 0.754717, g: 0.6852973, b: 0.43075827, a: 1}
+  m_enableVertexGradient: 1
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 0.8773585, g: 0.8109373, b: 0.5752492, a: 1}
+    bottomLeft: {r: 0.5566038, g: 0.42242584, b: 0.08139017, a: 1}
+    bottomRight: {r: 0.09433961, g: 0.06946359, b: 0.010234959, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 23
+  m_fontSizeBase: 23
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &995007802
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995007799}
+  m_CullTransparentMesh: 1
 --- !u!1001 &1000898370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10822,6 +10547,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3067260248086347637, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+      propertyPath: InteractionText
+      value: 
+      objectReference: {fileID: 613600071}
+    - target: {fileID: -3067260248086347637, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+      propertyPath: LayerMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 4138783169910026402, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
       propertyPath: m_Controller
       value: 
@@ -10938,6 +10671,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -10952,80 +10689,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1056913007}
+      addedObject: {fileID: 1692260976}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1056913006}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1056913005}
+      addedObject: {fileID: 1692260975}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1056913003 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1056913002}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1056913004 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1056913002}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1056913005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056913003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1056913004}
-  animationClipName: ChestAnim
---- !u!65 &1056913006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056913003}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1056913007
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056913003}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1061861229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
@@ -11170,6 +10843,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -11184,40 +10861,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1073959983}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1073959982}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1073959981}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1073959980}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1073959979 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1073959978}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1073959980 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1073959978}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1073959981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1073959979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1073959980}
-  animationClipName: ChestAnim
---- !u!65 &1073959982
-BoxCollider:
+--- !u!64 &1073959980
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11232,32 +10887,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1073959983
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1073959981
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073959979}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1095089818
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11310,6 +10958,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -11324,40 +10976,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1095089823}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1095089822}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1095089821}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1095089820}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1095089819 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1095089818}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1095089820 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1095089818}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1095089821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095089819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1095089820}
-  animationClipName: ChestAnim
---- !u!65 &1095089822
-BoxCollider:
+--- !u!64 &1095089820
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11372,18 +11002,37 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1095089823
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1095089821
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095089819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
+--- !u!4 &1099023995 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 182325896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1099023996
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182325897}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -11392,17 +11041,26 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1099023995 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 182325896}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1099023997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182325897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1 &1105675043
 GameObject:
   m_ObjectHideFlags: 0
@@ -11551,8 +11209,13 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 2100743070}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1114354380
-BoxCollider:
+--- !u!4 &1114354384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 2100743070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1114354386
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11567,38 +11230,13 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1114354381
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114354378}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!111 &1114354382 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 2100743070}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1114354383
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1114354388
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11607,21 +11245,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1114354378}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e1e2e2d31a61319448975f33f054c8f7, type: 3}
+  m_Script: {fileID: 11500000, guid: 04ac6f986a1d64b0db74fff3b17e46b9, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestGate
-  legacyAnimation: {fileID: 1114354382}
-  animationClipName: ChestAnim
+  m_EditorClassIdentifier: Assembly-CSharp::KeyChestInteractable
+  OpenChestText: '[E] to Open'
   gateObject: {fileID: 200379797}
   openDelay: 0.5
-  disableGate: 0
+  disableGate: 1
   moveUpDistance: 5
   moveSpeed: 2
---- !u!4 &1114354384 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 2100743070}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1154875284
 GameObject:
   m_ObjectHideFlags: 0
@@ -11824,6 +11456,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -11838,40 +11474,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1168549229}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1168549228}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1168549227}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1168549226}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1168549225 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1168549224}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1168549226 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1168549224}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1168549227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1168549225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1168549226}
-  animationClipName: ChestAnim
---- !u!65 &1168549228
-BoxCollider:
+--- !u!64 &1168549226
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -11886,32 +11500,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1168549229
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1168549227
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1168549225}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1170128415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12308,6 +11915,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 539913353}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1181955751
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539913354}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1181955752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539913354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!4 &1194812787 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6507183777876325090, guid: 3217370eb02f0c443a4d406b96b1cf1e, type: 3}
@@ -12871,6 +12513,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -12885,80 +12531,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1285525296}
+      addedObject: {fileID: 1469546341}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1285525295}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1285525294}
+      addedObject: {fileID: 1469546340}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1285525292 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1285525291}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1285525293 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1285525291}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1285525294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285525292}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1285525293}
-  animationClipName: ChestAnim
---- !u!65 &1285525295
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285525292}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1285525296
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285525292}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1297773246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13100,6 +12682,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.21
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -13117,13 +12703,10 @@ PrefabInstance:
       addedObject: {fileID: 2015979155}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2015979154}
+      addedObject: {fileID: 2015979161}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2015979157}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2015979158}
+      addedObject: {fileID: 2015979162}
     - targetCorrespondingSourceObject: {fileID: 100004, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
       addedObject: {fileID: 86623350}
@@ -13746,6 +13329,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -13760,40 +13347,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1439323221}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1439323220}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1439323219}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1439323218}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1439323217 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1439323216}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1439323218 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1439323216}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1439323219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439323217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1439323218}
-  animationClipName: ChestAnim
---- !u!65 &1439323220
-BoxCollider:
+--- !u!64 &1439323218
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -13808,32 +13373,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1439323221
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1439323219
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439323217}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1 &1451227027
 GameObject:
   m_ObjectHideFlags: 0
@@ -13998,6 +13556,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -14012,40 +13574,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1465959700}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1465959699}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1465959698}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1465959697}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1465959696 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1465959695}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1465959697 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1465959695}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1465959698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1465959696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1465959697}
-  animationClipName: ChestAnim
---- !u!65 &1465959699
-BoxCollider:
+--- !u!64 &1465959697
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14060,18 +13600,37 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1465959700
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1465959698
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1465959696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
+--- !u!4 &1469546339 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 1285525291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1469546340
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285525292}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -14080,17 +13639,26 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1469546339 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1285525291}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1469546341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285525292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1477297003
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14143,6 +13711,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -14157,40 +13729,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1477297008}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1477297007}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1477297006}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1477297005}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1477297004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1477297003}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1477297005 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1477297003}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1477297006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1477297004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1477297005}
-  animationClipName: ChestAnim
---- !u!65 &1477297007
-BoxCollider:
+--- !u!64 &1477297005
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14205,32 +13755,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1477297008
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1477297006
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1477297004}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1484261097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14475,6 +14018,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -14489,40 +14036,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1508227042}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1508227041}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1508227040}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1508227039}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1508227038 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1508227037}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1508227039 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1508227037}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1508227040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508227038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1508227039}
-  animationClipName: ChestAnim
---- !u!65 &1508227041
-BoxCollider:
+--- !u!64 &1508227039
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14537,32 +14062,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1508227042
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1508227040
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508227038}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1509187493
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15050,6 +14568,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 320429164}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1545550344
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320429165}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1545550345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320429165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1554598543
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15102,6 +14655,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -15116,21 +14673,23 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1554598546}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1554598545}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1554598549}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1554598548}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1554598544 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1554598543}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &1554598545
-BoxCollider:
+--- !u!4 &1554598547 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 1554598543}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1554598548
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15145,42 +14704,12 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1554598546
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1554598544}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1554598547 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1554598543}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &1554598548 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1554598543}
-  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!114 &1554598549
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15190,16 +14719,50 @@ MonoBehaviour:
   m_GameObject: {fileID: 1554598544}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1554598548}
-  animationClipName: ChestAnim
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!4 &1568764759 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 768661305}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1568764760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768661306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1568764761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768661306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1577713765
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15252,6 +14815,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -15266,40 +14833,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1577713770}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1577713769}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1577713768}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1577713767}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1577713766 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1577713765}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1577713767 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1577713765}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1577713768
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1577713766}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1577713767}
-  animationClipName: ChestAnim
---- !u!65 &1577713769
-BoxCollider:
+--- !u!64 &1577713767
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -15314,32 +14859,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1577713770
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1577713768
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1577713766}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1 &1582724250
 GameObject:
   m_ObjectHideFlags: 0
@@ -15551,6 +15089,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 885193794}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1629229057
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885193795}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1629229058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885193795}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1635167388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16033,6 +15606,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -16047,40 +15624,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1664058383}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1664058382}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1664058381}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1664058380}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1664058379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1664058378}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1664058380 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1664058378}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1664058381
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664058379}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1664058380}
-  animationClipName: ChestAnim
---- !u!65 &1664058382
-BoxCollider:
+--- !u!64 &1664058380
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16095,32 +15650,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1664058383
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1664058381
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664058379}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1678500438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16173,6 +15721,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -16187,40 +15739,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1678500443}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1678500442}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1678500441}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1678500440}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1678500439 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1678500438}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1678500440 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1678500438}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1678500441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1678500439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1678500440}
-  animationClipName: ChestAnim
---- !u!65 &1678500442
-BoxCollider:
+--- !u!64 &1678500440
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16235,18 +15765,37 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1678500443
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1678500441
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1678500439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
+--- !u!4 &1692260974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 1056913002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1692260975
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056913003}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -16255,17 +15804,26 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!4 &1692260974 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1056913002}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1692260976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056913003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1711524903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16318,6 +15876,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -16332,80 +15894,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1711524908}
+      addedObject: {fileID: 1879686307}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1711524907}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1711524906}
+      addedObject: {fileID: 1879686306}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1711524904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1711524903}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1711524905 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1711524903}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1711524906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711524904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1711524905}
-  animationClipName: ChestAnim
---- !u!65 &1711524907
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711524904}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1711524908
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1711524904}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1736637537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16883,6 +16381,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -16897,40 +16399,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1843476403}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1843476402}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1843476401}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1843476400}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1843476399 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1843476398}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1843476400 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1843476398}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1843476401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843476399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1843476400}
-  animationClipName: ChestAnim
---- !u!65 &1843476402
-BoxCollider:
+--- !u!64 &1843476400
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16945,32 +16425,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1843476403
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1843476401
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843476399}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1851707231
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17654,6 +17127,7 @@ RectTransform:
   m_Children:
   - {fileID: 1824204641}
   - {fileID: 747198728}
+  - {fileID: 613600070}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -17666,6 +17140,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1711524903}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1879686306
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711524904}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1879686307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1711524904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!4 &1890568593 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9141ce51a70f1f442a2cfcafa4474e3a, type: 3}
@@ -17733,6 +17242,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 227728229}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1923247895
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227728230}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1923247896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227728230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1923600303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17785,6 +17329,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -17799,40 +17347,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1923600308}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1923600307}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 1923600306}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1923600305}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1923600304 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1923600303}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1923600305 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1923600303}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1923600306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923600304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1923600305}
-  animationClipName: ChestAnim
---- !u!65 &1923600307
-BoxCollider:
+--- !u!64 &1923600305
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -17847,32 +17373,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1923600308
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1923600306
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923600304}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &1923641616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17925,6 +17444,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -17939,80 +17462,16 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1923641621}
+      addedObject: {fileID: 2002536032}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1923641620}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1923641619}
+      addedObject: {fileID: 2002536031}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &1923641617 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1923641616}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &1923641618 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1923641616}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1923641619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923641617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 1923641618}
-  animationClipName: ChestAnim
---- !u!65 &1923641620
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923641617}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 1
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &1923641621
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1923641617}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1924741633
 GameObject:
   m_ObjectHideFlags: 0
@@ -18157,6 +17616,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 89340731}
   m_PrefabAsset: {fileID: 0}
+--- !u!64 &1952961740
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89340732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &1952961741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89340732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1 &1969218692
 GameObject:
   m_ObjectHideFlags: 0
@@ -19696,28 +19190,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 1923641616}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &2007264633 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 526254253}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2015979150 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1338054336}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &2015979151 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1338054336}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &2015979154
-BoxCollider:
+--- !u!64 &2002536031
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015979150}
+  m_GameObject: {fileID: 1923641617}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -19726,12 +19205,71 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &2002536032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1923641617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
+--- !u!4 &2007264633 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 526254253}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2007264634
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526254254}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &2007264635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526254254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
+--- !u!1 &2015979150 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 1338054336}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2015979155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19745,8 +19283,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
   m_Delegates: []
---- !u!65 &2015979157
-BoxCollider:
+--- !u!4 &2015979159 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+  m_PrefabInstance: {fileID: 1338054336}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &2015979161
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -19761,12 +19304,13 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2015979158
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &2015979162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19775,19 +19319,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2015979150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eef83ec06241d94babfe051775396f2, type: 3}
+  m_Script: {fileID: 11500000, guid: b5fe20bf7b0b6496cab046a416b01fc3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GreedTrapChest
-  legacyAnimation: {fileID: 2015979151}
-  animationClipName: ChestAnim
+  m_EditorClassIdentifier: Assembly-CSharp::TrapChestInteractable
+  OpenChestText: '[E] to Open'
   youFoolPanel: {fileID: 1824204640}
-  textDisplayDuration: 3
+  textDisplayDuration: 2
   previousSceneName: Gluttony_Level
---- !u!4 &2015979159 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 1338054336}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2026784318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20509,6 +20047,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -20523,40 +20065,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2052366162}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2052366161}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2052366160}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2052366159}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &2052366158 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 2052366157}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &2052366159 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 2052366157}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2052366160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2052366158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 2052366159}
-  animationClipName: ChestAnim
---- !u!65 &2052366161
-BoxCollider:
+--- !u!64 &2052366159
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -20571,32 +20091,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &2052366162
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &2052366160
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052366158}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &2053986997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20843,6 +20356,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -20857,40 +20374,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2084044477}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2084044476}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2084044475}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2084044474}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &2084044473 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 2084044472}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &2084044474 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 2084044472}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2084044475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084044473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 2084044474}
-  animationClipName: ChestAnim
---- !u!65 &2084044476
-BoxCollider:
+--- !u!64 &2084044474
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -20905,32 +20400,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &2084044477
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &2084044475
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084044473}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &2100743070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20983,6 +20471,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -20997,13 +20489,10 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1114354381}
+      addedObject: {fileID: 1114354386}
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1114354380}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1114354383}
+      addedObject: {fileID: 1114354388}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1001 &2102491761
 PrefabInstance:
@@ -21057,6 +20546,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 524d6c079fc2943c6a7815e025bae713, type: 2}
     - target: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       propertyPath: m_PlayAutomatically
       value: 0
@@ -21071,40 +20564,18 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2102491766}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2102491765}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 2102491764}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2102491763}
   m_SourcePrefab: {fileID: 100100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
 --- !u!1 &2102491762 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
   m_PrefabInstance: {fileID: 2102491761}
   m_PrefabAsset: {fileID: 0}
---- !u!111 &2102491763 stripped
-Animation:
-  m_CorrespondingSourceObject: {fileID: 11100000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
-  m_PrefabInstance: {fileID: 2102491761}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2102491764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2102491762}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 580de20788bb6b643811b0a3c7146ccd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ChestEmpty
-  legacyAnimation: {fileID: 2102491763}
-  animationClipName: ChestAnim
---- !u!65 &2102491765
-BoxCollider:
+--- !u!64 &2102491763
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -21119,32 +20590,25 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 1
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6, y: 0.5, z: 1.3}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!65 &2102491766
-BoxCollider:
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 63878c47173aa774687bf1dcb9a14938, type: 3}
+--- !u!114 &2102491764
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102491762}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1, y: 0.5, z: 1.4}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd88dade49bc843ce9a6d5c8781f2c4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ChestInteractable
+  OpenChestText: '[E] to Open'
 --- !u!1001 &2104312659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21551,3 +21015,4 @@ SceneRoots:
   - {fileID: 97819468}
   - {fileID: 1270791130}
   - {fileID: 1378923478}
+  - {fileID: 983453414}
