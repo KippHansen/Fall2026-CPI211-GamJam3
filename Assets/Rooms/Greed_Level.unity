@@ -4061,6 +4061,7 @@ Transform:
   - {fileID: 695940051}
   - {fileID: 2035010829}
   - {fileID: 442648706}
+  - {fileID: 983453414}
   m_Father: {fileID: 1791180101}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &342465439
@@ -9737,7 +9738,7 @@ GameObject:
   - component: {fileID: 983453412}
   - component: {fileID: 983453411}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Wall Instrcutions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9813,17 +9814,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 983453410}
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0.86}
-  m_LocalScale: {x: 0.019948, y: 0.019948, z: 0.019948}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: -22.69}
+  m_LocalScale: {x: 0.019947998, y: 0.019948, z: 0.019947998}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 995007800}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 340594263}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 8.53, y: 4.4}
+  m_AnchoredPosition: {x: 7.09, y: -6.91}
   m_SizeDelta: {x: 774.5, y: 485}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &984317792
@@ -21015,4 +21016,3 @@ SceneRoots:
   - {fileID: 97819468}
   - {fileID: 1270791130}
   - {fileID: 1378923478}
-  - {fileID: 983453414}
