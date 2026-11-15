@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - UITrigger
+  - toothbrush
   layers:
   - Default
   - TransparentFX
