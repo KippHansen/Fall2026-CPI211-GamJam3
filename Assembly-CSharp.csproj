@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\gluttony\monster_spawner.cs" />
     <Compile Include="Assets\Scripts\Greed\New Chest\KeyChestInteractable.cs" />
     <Compile Include="Assets\Scripts\Greed\Old Chest\ChestGate.cs" />
+    <Compile Include="Assets\Sloth_alarm_script.cs" />
     <Compile Include="Assets\Scripts\User Interface\PersistantMusic.cs" />
     <Compile Include="Assets\Scripts\nonspecific\Interactions\TestInteractable.cs" />
     <Compile Include="Assets\Scripts\gluttony\text_trigger.cs" />

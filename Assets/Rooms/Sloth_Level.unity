@@ -2209,9 +2209,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3189735710651245121, guid: 3217370eb02f0c443a4d406b96b1cf1e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1235772602}
-    - targetCorrespondingSourceObject: {fileID: 3189735710651245121, guid: 3217370eb02f0c443a4d406b96b1cf1e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1235772601}
   m_SourcePrefab: {fileID: 100100000, guid: 3217370eb02f0c443a4d406b96b1cf1e, type: 3}
 --- !u!1001 &424040881
 PrefabInstance:
@@ -2593,6 +2590,104 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1469969413}
   m_SourcePrefab: {fileID: 100100000, guid: 30c71dce917b0e745b9c87225ad2db46, type: 3}
+--- !u!1001 &475032113
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 159809222931260317, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_Name
+      value: Grandfather_clock 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 13.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.1662407
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 89.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 683439972297373991, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 159809222931260317, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 475032115}
+  m_SourcePrefab: {fileID: 100100000, guid: 585f379b507df1944adb8132189409c9, type: 3}
+--- !u!1 &475032114 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 159809222931260317, guid: 585f379b507df1944adb8132189409c9, type: 3}
+  m_PrefabInstance: {fileID: 475032113}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &475032115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475032114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c85515290fe03c4eb66da7f4a0ae45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sloth_alarm_script
+  timeBetweenAlarms: 2
+  inRange: 0
+  isRinging: 0
+  quiet: {r: 1, g: 1, b: 1, a: 1}
+  loud: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &502255750
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3591,7 +3686,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: toothbrush
+  m_text: ToothBrush
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7827,20 +7922,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3189735710651245121, guid: 3217370eb02f0c443a4d406b96b1cf1e, type: 3}
   m_PrefabInstance: {fileID: 374720130}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1235772601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1235772599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a73c1cd9e3453d14aafa78ad69cfbfca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Sloth_Conveyor_belt
-  pushSpeed: 4
-  pushDirection: {x: 0, y: 0, z: -1}
 --- !u!65 &1235772602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7860,7 +7941,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 60, y: 50, z: 55}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 26, y: -2, z: 38}
 --- !u!1001 &1259014568
 PrefabInstance:
@@ -10119,7 +10200,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7332523258936348311, guid: 0e68ccce1c6ce2f46abc8b39bb63c470, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1592366127}
   m_SourcePrefab: {fileID: 100100000, guid: 0e68ccce1c6ce2f46abc8b39bb63c470, type: 3}
 --- !u!1001 &1582980933
 PrefabInstance:
@@ -10194,6 +10278,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbf5add6f97674e4f9d710d2027584f4, type: 3}
+--- !u!1 &1592366122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7332523258936348311, guid: 0e68ccce1c6ce2f46abc8b39bb63c470, type: 3}
+  m_PrefabInstance: {fileID: 1567299734}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1592366127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1592366122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c85515290fe03c4eb66da7f4a0ae45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sloth_alarm_script
+  timeBetweenAlarms: 8
+  inRange: 0
+  isRinging: 0
+  quiet: {r: 1, g: 1, b: 1, a: 1}
+  loud: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &1609041976
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11510,7 +11616,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: cactus
+  m_text: Cactus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12877,6 +12983,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 647691fdcf3b5b749abe7c57cfd99f20, type: 3}
+--- !u!1 &1887005359 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 159809222931260317, guid: 585f379b507df1944adb8132189409c9, type: 3}
+  m_PrefabInstance: {fileID: 1936092521}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1887005364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887005359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c85515290fe03c4eb66da7f4a0ae45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Sloth_alarm_script
+  timeBetweenAlarms: 2
+  inRange: 0
+  isRinging: 0
+  quiet: {r: 1, g: 1, b: 1, a: 1}
+  loud: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1001 &1900405005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13094,7 +13222,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 159809222931260317, guid: 585f379b507df1944adb8132189409c9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1887005364}
   m_SourcePrefab: {fileID: 100100000, guid: 585f379b507df1944adb8132189409c9, type: 3}
 --- !u!1001 &1946855119
 PrefabInstance:
@@ -13276,7 +13407,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 52}
   m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990998886
@@ -13299,9 +13430,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Welcome to sloth
+  m_text: 'Welcome to the sloth floot
 
-    DO YOUR CHORES but beware to not wake the beast'
+    Don''t be lazy and do  your chores!
+
+    Turn
+    off the alarms when they ring and dont wake the dog '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -14279,6 +14413,7 @@ SceneRoots:
   - {fileID: 313813941}
   - {fileID: 1991024231}
   - {fileID: 1625444311}
+  - {fileID: 475032113}
   - {fileID: 1123855081}
   - {fileID: 1614841728}
   - {fileID: 943054265}
