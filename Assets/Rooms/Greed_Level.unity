@@ -10770,6 +10770,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0afc824927d4342fab2b772824e9790d, type: 2}
+    - target: {fileID: 4138783169910026402, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188445101165839277, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7526363430943032876, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.94
@@ -10814,6 +10822,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8371931187675678891, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10830,6 +10842,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a476439dc07acae43bfa1f9a3aa05db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::player_controller
+--- !u!20 &1052992704 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 5456307864573886377, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+  m_PrefabInstance: {fileID: 1052992702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!20 &1052992705 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2778778633409796376, guid: 9984b9eb267919d489d4171a725f7449, type: 3}
+  m_PrefabInstance: {fileID: 1052992702}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1056913002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11461,10 +11483,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::KeyChestInteractable
   OpenChestText: '[E] to Open'
   gateObject: {fileID: 200379797}
-  openDelay: 0.5
+  openDelay: 4
   disableGate: 1
   moveUpDistance: 5
-  moveSpeed: 2
+  moveSpeed: 0.2
+--- !u!1 &1145881836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1145881837}
+  - component: {fileID: 1145881838}
+  m_Layer: 0
+  m_Name: CameraManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1145881837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145881836}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1145881838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1145881836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0623daae4b20040ff8853796c125474d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCameraLoader
+  playerCameras:
+  - {fileID: 1052992705}
+  - {fileID: 1052992704}
 --- !u!1 &1154875284
 GameObject:
   m_ObjectHideFlags: 0
@@ -21404,6 +21473,7 @@ SceneRoots:
   - {fileID: 1878655441}
   - {fileID: 695997004}
   - {fileID: 503428335}
+  - {fileID: 1145881837}
   - {fileID: 1011586589}
   - {fileID: 1798448814}
   - {fileID: 97819468}

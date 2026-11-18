@@ -8,7 +8,8 @@ public class MainMenu : MonoBehaviour
    {
     Time.timeScale = 1f;
     isPaused = false;
-    SceneManager.LoadSceneAsync("Gluttony_Level");
+    int nextIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    SceneManager.LoadScene(nextIndex);
    }
     
     public void Menu()
