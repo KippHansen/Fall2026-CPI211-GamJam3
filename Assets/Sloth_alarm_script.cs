@@ -98,7 +98,7 @@ void startRinging()
         }
     }
 // checks if any clocks are ringing in room
- bool activeRinging()
+ public static bool activeRinging()
     {
         foreach (var clock in room_clocks)
         {
