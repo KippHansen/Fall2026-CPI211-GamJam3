@@ -43,7 +43,7 @@
     <UnityVersion>6000.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\ahmed\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.3.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\User Interface\ScrollingText.cs" />
     <Compile Include="Assets\Scripts\User Interface\Settings menu.cs" />
+    <Compile Include="Assets\Scripts\lust\RicardioAI.cs" />
     <Compile Include="Assets\Move_level.cs" />
     <Compile Include="Assets\Scripts\sloth\Sloth_turret.cs" />
     <Compile Include="Assets\Scripts\User Interface\Pause.cs" />
@@ -59,6 +60,7 @@
     <Compile Include="Assets\Scripts\nonspecific\Interactions\PlayerInteractions.cs" />
     <Compile Include="Assets\Scripts\User Interface\ScoreBoard.cs" />
     <Compile Include="Assets\Scripts\Greed\Old Chest\ChestEmpty.cs" />
+    <Compile Include="Assets\Scripts\lust\PlayerHealth.cs" />
     <Compile Include="Assets\Sloth_ChoreList.cs" />
     <Compile Include="Assets\Scripts\nonspecific\overtheshoulder.cs" />
     <Compile Include="Assets\Scripts\User Interface\Dialogue_script.cs" />
@@ -73,6 +75,7 @@
     <Compile Include="Assets\Scripts\nonspecific\Devtools.cs" />
     <Compile Include="Assets\Scripts\player_spawner.cs" />
     <Compile Include="Assets\Scripts\nonspecific\win_plane.cs" />
+    <Compile Include="Assets\Scripts\lust\Arrow.cs" />
     <Compile Include="Assets\Scripts\Greed\New Chest\TrapChestInteractable.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\gluttony\monster_spawner.cs" />
@@ -83,6 +86,7 @@
     <Compile Include="Assets\Scripts\User Interface\PersistantMusic.cs" />
     <Compile Include="Assets\Scripts\nonspecific\Interactions\TestInteractable.cs" />
     <Compile Include="Assets\Scripts\gluttony\text_trigger.cs" />
+    <Compile Include="Assets\Scripts\lust\Bow.cs" />
     <Compile Include="Assets\Scripts\gluttony\shadow_follower.cs" />
     <Compile Include="Assets\Scripts\envy\GhostRunner.cs" />
     <Compile Include="Assets\Scripts\Greed\Old Chest\GreedTrapChest.cs" />
@@ -667,6 +671,10 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
