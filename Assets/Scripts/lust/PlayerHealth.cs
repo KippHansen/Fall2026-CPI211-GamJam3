@@ -26,7 +26,7 @@ public class PlayerHealth : MonoBehaviour, IDamageable
 
     void Die()
     {
-        Debug.Log("Player dead");
+        Debug.Log("Player ded");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
