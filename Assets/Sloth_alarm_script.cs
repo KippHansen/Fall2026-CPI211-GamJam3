@@ -17,6 +17,8 @@ public class Sloth_alarm_script : MonoBehaviour
     public Color  loud = Color.red;
     // commented out bc i dont have audio yet
     public AudioSource alarmAudio;
+    public GameObject MashE;
+    private bool Masheprompt;
 
     private Renderer clockRenderer; 
     private Vector3 originalpos;
@@ -57,15 +59,38 @@ public class Sloth_alarm_script : MonoBehaviour
          if (isRinging)
             {
                 transform.localPosition= originalpos + Random.insideUnitSphere * 0.05f ;
-                if(inRange && Input.GetKeyDown(KeyCode.E))
+                if(inRange)
+                {
+                   if(!Masheprompt && MashE != null)
+                {
+                    MashE.SetActive(true);
+                    Masheprompt= true;
+                }
+                if( Input.GetKeyDown(KeyCode.E))
             {
                 currentpress++;
 
                 Debug.Log(" press need" + currentpress);
             }
+                
+                }
+                else if (Masheprompt)
+            {
+                if(MashE != null)
+                {
+                    MashE.SetActive(false);
+                    Masheprompt = false;
+                }
+            }
             if(currentpress>= neededpresses)
             {
                 endRinging();
+                if(MashE != null)
+                {
+                     MashE.SetActive(false);
+                    Masheprompt = false;
+                }
+               
             }
                 }
         
@@ -99,6 +124,7 @@ void startRinging()
         if (other.CompareTag("Player"))
         {
             inRange = true;
+           
             
         }
     }
@@ -107,6 +133,7 @@ void startRinging()
         if (other.CompareTag("Player"))
         {
             inRange= false;
+            
 
         }
     }
