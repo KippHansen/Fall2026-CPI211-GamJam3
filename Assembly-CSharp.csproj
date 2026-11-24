@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts\lust\RicardioAI.cs" />
     <Compile Include="Assets\Move_level.cs" />
     <Compile Include="Assets\Scripts\sloth\Sloth_turret.cs" />
+    <Compile Include="Assets\Scripts\lust\RicardioSpawner.cs" />
     <Compile Include="Assets\Scripts\User Interface\Pause.cs" />
     <Compile Include="Assets\Scripts\Wrath\Door_Trigger.cs" />
     <Compile Include="Assets\Scripts\User Interface\Score_script.cs" />
