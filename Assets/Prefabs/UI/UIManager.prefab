@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6744501970458943165}
   - component: {fileID: 5079125088510359368}
   - component: {fileID: 1848658873697595788}
+  - component: {fileID: -7370891942878256738}
   m_Layer: 0
   m_Name: UIManager
   m_TagString: Untagged
@@ -59,3 +60,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c93adb8cab62b4623885ecc5e1003bc0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+--- !u!114 &-7370891942878256738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375758146849730821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0623daae4b20040ff8853796c125474d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCameraLoader
+  playerCameras:
+  - {fileID: 0}
+  - {fileID: 0}
