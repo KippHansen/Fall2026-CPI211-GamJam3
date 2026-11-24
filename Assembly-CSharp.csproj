@@ -43,15 +43,20 @@
     <UnityVersion>6000.3.24f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
 =======
 >>>>>>> cdcac32ff810a2aa4944958b56529b249a167e37
+=======
+    <Analyzer Include="C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+>>>>>>> Stashed changes
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\User Interface\ScrollingText.cs" />
     <Compile Include="Assets\Scripts\User Interface\Settings menu.cs" />
     <Compile Include="Assets\Scripts\lust\RicardioAI.cs" />
@@ -77,11 +82,18 @@
     <Compile Include="Assets\Scripts\death_plane.cs" />
     <Compile Include="Assets\Scripts\envy\EnvyTrapTrigger.cs" />
     <Compile Include="Assets\Scripts\nonspecific\Devtools.cs" />
+=======
+    <Compile Include="Assets\Scripts\player_controller.cs" />
+    <Compile Include="Assets\Dialogue_script.cs" />
+    <Compile Include="Assets\Scripts\shadow_follower.cs" />
+    <Compile Include="Assets\Scripts\monster_spawner.cs" />
+>>>>>>> Stashed changes
     <Compile Include="Assets\Scripts\player_spawner.cs" />
     <Compile Include="Assets\Scripts\nonspecific\win_plane.cs" />
     <Compile Include="Assets\Scripts\lust\Arrow.cs" />
     <Compile Include="Assets\Scripts\Greed\New Chest\TrapChestInteractable.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\gluttony\monster_spawner.cs" />
     <Compile Include="Assets\Sloth_dog_Script.cs" />
     <Compile Include="Assets\Scripts\Greed\New Chest\KeyChestInteractable.cs" />
@@ -96,6 +108,10 @@
     <Compile Include="Assets\Scripts\Greed\Old Chest\GreedTrapChest.cs" />
     <Compile Include="Assets\Scripts\nonspecific\player_controller.cs" />
     <Compile Include="Assets\Scripts\sloth\Sloth_Conveyor_belt.cs" />
+=======
+    <Compile Include="Assets\Scripts\text_trigger.cs" />
+    <Compile Include="Assets\Score_script.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -675,10 +691,6 @@
     </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.24f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
