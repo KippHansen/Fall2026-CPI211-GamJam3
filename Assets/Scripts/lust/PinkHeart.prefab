@@ -12,6 +12,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: PinkHeart
       objectReference: {fileID: 0}
+    - target: {fileID: 4242021641617127935, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.2565918
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242021641617127935, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.8099992
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242021641617127935, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.440172
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242021641617127935, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242021641617127935, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000029802319
+      objectReference: {fileID: 0}
+    - target: {fileID: 4242021641617127935, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5786453787908042841, guid: 6e815f99c902a0645a4acd4aaf290fe7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.85
