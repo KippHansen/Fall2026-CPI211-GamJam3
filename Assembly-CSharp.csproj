@@ -49,6 +49,7 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/6000.3.24f1/Unity.app/Contents/Resources/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets/Scripts/User Interface/ScrollingText.cs" />
     <Compile Include="Assets/Scripts/User Interface/Settings menu.cs" />
     <Compile Include="Assets/Scripts/lust/RicardioAI.cs" />
@@ -120,6 +121,82 @@
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+=======
+    <Compile Include="Assets\SnoozyRat\_Shared Assets\Demo Assets\Scripts\SR_DemoCharacterMaterialRandomizer.cs" />
+    <Compile Include="Assets\Scripts\User Interface\ScrollingText.cs" />
+    <Compile Include="Assets\Scripts\User Interface\Settings menu.cs" />
+    <Compile Include="Assets\Scripts\lust\RicardioAI.cs" />
+    <Compile Include="Assets\Move_level.cs" />
+    <Compile Include="Assets\Scripts\sloth\Sloth_turret.cs" />
+    <Compile Include="Assets\Scripts\lust\RicardioSpawner.cs" />
+    <Compile Include="Assets\Scripts\User Interface\Pause.cs" />
+    <Compile Include="Assets\Scripts\Wrath\Door_Trigger.cs" />
+    <Compile Include="Assets\Scripts\User Interface\Score_script.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\Interactions\PlayerInteractions.cs" />
+    <Compile Include="Assets\Scripts\User Interface\ScoreBoard.cs" />
+    <Compile Include="Assets\Scripts\Greed\Old Chest\ChestEmpty.cs" />
+    <Compile Include="Assets\Scripts\lust\PlayerHealth.cs" />
+    <Compile Include="Assets\Sloth_ChoreList.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\overtheshoulder.cs" />
+    <Compile Include="Assets\Scripts\User Interface\Dialogue_script.cs" />
+    <Compile Include="Assets\Scripts\User Interface\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\Interactions\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\User Interface\PlayerCameraLoader.cs" />
+    <Compile Include="Assets\Art\Animations\Kevin Iglesias\Human Animations\Scripts\SpineProxy.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\Cameramove.cs" />
+    <Compile Include="Assets\Scripts\Greed\New Chest\ChestInteractable.cs" />
+    <Compile Include="Assets\Scripts\death_plane.cs" />
+    <Compile Include="Assets\Scripts\envy\EnvyTrapTrigger.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\Devtools.cs" />
+    <Compile Include="Assets\Scripts\player_spawner.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\win_plane.cs" />
+    <Compile Include="Assets\Scripts\lust\Arrow.cs" />
+    <Compile Include="Assets\Scripts\Greed\New Chest\TrapChestInteractable.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\gluttony\monster_spawner.cs" />
+    <Compile Include="Assets\Sloth_dog_Script.cs" />
+    <Compile Include="Assets\Scripts\Greed\New Chest\KeyChestInteractable.cs" />
+    <Compile Include="Assets\Scripts\Greed\Old Chest\ChestGate.cs" />
+    <Compile Include="Assets\Sloth_alarm_script.cs" />
+    <Compile Include="Assets\Scripts\User Interface\PersistantMusic.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\Interactions\TestInteractable.cs" />
+    <Compile Include="Assets\Scripts\gluttony\text_trigger.cs" />
+    <Compile Include="Assets\Scripts\lust\Bow.cs" />
+    <Compile Include="Assets\Scripts\gluttony\shadow_follower.cs" />
+    <Compile Include="Assets\Scripts\envy\GhostRunner.cs" />
+    <Compile Include="Assets\Scripts\Greed\Old Chest\GreedTrapChest.cs" />
+    <Compile Include="Assets\Scripts\nonspecific\player_controller.cs" />
+    <Compile Include="Assets\Scripts\sloth\Sloth_Conveyor_belt.cs" />
+    <Compile Include="Assets\SnoozyRat\_Shared Assets\Demo Assets\Scripts\SR_DemoCharacterRotator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile-2-Pass.shader" />
+    <None Include="Assets\SnoozyRat\Cthulhu Idol - PBR\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\Building assets\ithappy\Cute_Furniture_Free\Render_Pipeline_Convert\Render_Pipeline_Instructions_Unity_6.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Textures\Free Realistic Textures\README.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\Building assets\PolyKebap\Candles\Shaders\CandleFlameShader.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
