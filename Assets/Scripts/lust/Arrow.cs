@@ -17,9 +17,9 @@ public class Arrow : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player")) return;
-
-        if (other.TryGetComponent<IDamageable>(out IDamageable target))
+        if (other.CompareTag("Player") || other.transform.root.CompareTag("Player")) return;
+        IDamageable target = other.GetComponentInParent<IDamageable>();
+        if (target != null)
         {
             target.TakeDamage(damage);
             Destroy(gameObject);
