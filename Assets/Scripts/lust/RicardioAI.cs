@@ -44,7 +44,6 @@ public class RicardioAI : MonoBehaviour, IDamageable
             playerHealth.TakeDamage(damage);
             nextAttackTime = Time.time + attackCooldown;
         }
-
         if (toPlayer != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(toPlayer.normalized);
