@@ -5,6 +5,7 @@ public class RicardioAI : MonoBehaviour, IDamageable
     [Header("Movement & Health")]
     public float moveSpeed = 3.5f;
     public float rotationSpeed = 6f;
+    public float facingAngleOffset = 0f;
     public int health = 2;
 
     [Header("Attack Settings")]
@@ -14,10 +15,13 @@ public class RicardioAI : MonoBehaviour, IDamageable
 
     private Transform player;
     private PlayerHealth playerHealth;
+    private Rigidbody rb;
     private float nextAttackTime = 0f;
 
     void Start()
     {
+        rb = GetComponent<Rigidbody>();
+
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
         {
@@ -32,22 +36,34 @@ public class RicardioAI : MonoBehaviour, IDamageable
 
         Vector3 toPlayer = player.position - transform.position;
         toPlayer.y = 0f;
-        float distanceToPlayer = toPlayer.magnitude;
-
-        if (distanceToPlayer > attackRange)
+        if (toPlayer.sqrMagnitude > 0.001f)
         {
-            Vector3 direction = toPlayer.normalized;
-            transform.position += direction * moveSpeed * Time.deltaTime;
+            Quaternion targetRotation = Quaternion.LookRotation(toPlayer.normalized) * Quaternion.Euler(0f, facingAngleOffset, 0f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
-        else if (playerHealth != null && Time.time >= nextAttackTime)
+        if (toPlayer.magnitude <= attackRange && playerHealth != null && Time.time >= nextAttackTime)
         {
             playerHealth.TakeDamage(damage);
             nextAttackTime = Time.time + attackCooldown;
         }
-        if (toPlayer != Vector3.zero)
+    }
+
+    void FixedUpdate()
+    {
+        if (player == null || rb == null) return;
+
+        Vector3 toPlayer = player.position - transform.position;
+        toPlayer.y = 0f;
+        float verticalVel = Mathf.Min(rb.linearVelocity.y, 0f);
+
+        if (toPlayer.magnitude > attackRange)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(toPlayer.normalized);
-            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            Vector3 direction = toPlayer.normalized;
+            rb.linearVelocity = new Vector3(direction.x * moveSpeed, verticalVel, direction.z * moveSpeed);
+        }
+        else
+        {
+            rb.linearVelocity = new Vector3(0f, verticalVel, 0f);
         }
     }
 
@@ -58,5 +74,11 @@ public class RicardioAI : MonoBehaviour, IDamageable
         {
             Destroy(gameObject);
         }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
     }
 }
