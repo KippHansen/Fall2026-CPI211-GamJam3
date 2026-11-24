@@ -3,6 +3,8 @@ using TMPro;
 using Unity.VisualScripting;
 using Mono.Cecil.Cil;
 using UnityEngine.UIElements;
+using System.Collections;
+using UnityEngine.SceneManagement;
 
 
 public class Sloth_ChoreList : MonoBehaviour
@@ -10,15 +12,17 @@ public class Sloth_ChoreList : MonoBehaviour
     // intro
     public GameObject instructionPanel;
     public GameObject ChoresPanel;
+    public GameObject winPanel;
  // items in room
  public TMP_Text   CactusText;
   public TMP_Text   GuitarText;
    public TMP_Text   toothbrushText;  
    public TMP_Text   green_plantText;
+   public AudioSource ding;
 
    //floor clearing requirements
    public int ChoresNeeded;
-   private int ChoresDone;
+   public int ChoresDone=0;
    // to block the player from leaving early
    public GameObject exitBarrier;
 
@@ -33,6 +37,10 @@ void Start()
         if(ChoresPanel != null)
         {
             ChoresPanel.SetActive(false);
+        }
+        if(winPanel != null)
+        {
+            winPanel.SetActive(false);
         }
         if(CactusText != null ) {
             CactusText.text = "-Cactus";
@@ -67,15 +75,7 @@ public void Update()
         ChoresPanel.SetActive(true);
 
     }
-     public void checkChore(GameObject other )
-
-    {
-        // deletes item
-        Destroy(other);
-        // adds 1 to total chore count
-        ChoresDone++;
-        
-    }
+     
 
     void OnTriggerEnter(Collider other)
     {
@@ -114,6 +114,26 @@ public void Update()
                     break;
                 }
         }
+        public void checkChore(GameObject other)
+    {
+        if(ding != null)
+        {
+            ding.Play();
+        }
+        ChoresDone++;
+        if(ChoresDone >= ChoresNeeded)
+        {
+            StartCoroutine(Win());
+        }
+    }
+
+    IEnumerator Win()
+    {           
+         winPanel.SetActive(true);
+
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+    }
     }
 
    

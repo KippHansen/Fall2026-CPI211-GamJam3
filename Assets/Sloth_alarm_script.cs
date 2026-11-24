@@ -5,6 +5,8 @@ using UnityEngine;
 public class Sloth_alarm_script : MonoBehaviour
 {
     // alaram variables 
+    public int neededpresses = 5;
+    private int currentpress = 0;
     public float timeBetweenAlarms = 8f;
     private float countdown;
     public bool inRange;
@@ -14,7 +16,7 @@ public class Sloth_alarm_script : MonoBehaviour
     public Color quiet = Color.white;
     public Color  loud = Color.red;
     // commented out bc i dont have audio yet
-    //public AudioSource alaramAudio;
+    public AudioSource alarmAudio;
 
     private Renderer clockRenderer; 
     private Vector3 originalpos;
@@ -55,6 +57,16 @@ public class Sloth_alarm_script : MonoBehaviour
          if (isRinging)
             {
                 transform.localPosition= originalpos + Random.insideUnitSphere * 0.05f ;
+                if(inRange && Input.GetKeyDown(KeyCode.E))
+            {
+                currentpress++;
+
+                Debug.Log(" press need" + currentpress);
+            }
+            if(currentpress>= neededpresses)
+            {
+                endRinging();
+            }
                 }
         
     }
@@ -66,18 +78,19 @@ void startRinging()
         if(clockRenderer != null)
         {
             clockRenderer.material.color = loud;
-            //alarmAudio.play();
+            alarmAudio.Play();
         }
         Debug.Log(gameObject.name + " is Ringing");
     }
     void endRinging()
     {
         isRinging = false; 
+        currentpress=0;
         transform.localPosition = originalpos;
         if(clockRenderer != null)
         {
             clockRenderer.material.color= quiet;
-            //alarmAudio.stop();
+        alarmAudio.Stop();
         }
     }
 

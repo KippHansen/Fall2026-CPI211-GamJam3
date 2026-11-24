@@ -16,6 +16,8 @@ public class Sloth_dog_Script : MonoBehaviour
     public float sprintingSpeed = 3f;
     public float catchdist= 3f;
     private bool isAwake=false;
+    public AudioSource growl;
+
     void Start()
     {
         currentSleep = maxSleep;
@@ -56,6 +58,7 @@ void Update()
                 Vector3 targetPos= new Vector3(player.position.x,transform.position.y,player.position.z);
 
                 transform.LookAt(targetPos);
+                transform.Rotate(0f,180f,0f);
                 transform.position = Vector3.MoveTowards(transform.position,targetPos, sprintingSpeed * Time.deltaTime);
 
                 //reset level if dead
@@ -78,6 +81,10 @@ void Update()
                 dogAnimation.SetBool("isAwake", true);
             }
             Debug.Log("The dog is awake!");
+            if(growl != null)
+        {
+            growl.Play();
+        }
         }
 
     }
