@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Rooms/Main_Menu.unity
+    path: Assets/Rooms/UI/Main_Menu.unity
     guid: 8575f90a513a148c184de89b6df504b3
   - enabled: 1
     path: Assets/Rooms/Stairs/staircase_1.unity
@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rooms/Greed_Level.unity
     guid: 068cd36ff18195848a52f28a195b8d3d
+  - enabled: 1
+    path: Assets/Rooms/Stairs/staircase_2.unity
+    guid: 6990b67b5e6ed4f34b3af22c95d2ecc9
   - enabled: 1
     path: Assets/Rooms/Envy_Level.unity
     guid: 86f2447a957cfa244aed500f248ae3a8
@@ -24,25 +27,34 @@ EditorBuildSettings:
     path: Assets/Rooms/Wrath_Scene.unity
     guid: 0c99e4622a4ce2441935cba83fc3c832
   - enabled: 1
+    path: Assets/Rooms/Stairs/Staircase_4.unity
+    guid: 5df97eaa6b29c44f6af5557c0b8f45e7
+  - enabled: 1
     path: Assets/Rooms/Lust_Level.unity
     guid: 33b3a3280d31d0d4e88b4b1aa1f430c0
+  - enabled: 1
+    path: Assets/Rooms/Stairs/staircase_5.unity
+    guid: 3719984065801479b9ecbe457e82075d
   - enabled: 1
     path: Assets/Rooms/Gluttony_Level.unity
     guid: fb186dfee08d78f4f91e43b3fe6b27f0
   - enabled: 1
+    path: Assets/Rooms/Stairs/staircase_6.unity
+    guid: 907103c876d934b7d8e52befe7ddd0d4
+  - enabled: 1
     path: Assets/Rooms/Sloth_Level.unity
     guid: 0a3df9558adb0144f809adcf745a7d77
   - enabled: 1
-    path: Assets/Rooms/Win_Screen.unity
+    path: Assets/Rooms/UI/Win_Screen.unity
     guid: 4182498425d3c4ebfae2b6fb485c250f
   - enabled: 1
-    path: Assets/Rooms/Credits.unity
+    path: Assets/Rooms/UI/Credits.unity
     guid: af8924e518a814915b094a022b1be17f
   - enabled: 1
-    path: Assets/Rooms/Scoreboard.unity
+    path: Assets/Rooms/UI/Scoreboard.unity
     guid: cc46526c4f50a4aafbf88ce4ea0ce462
   - enabled: 1
-    path: Assets/Rooms/Instructions.unity
+    path: Assets/Rooms/UI/Instructions.unity
     guid: b42b13d9c4a4e4a0896b664038bcce87
   - enabled: 1
     path: Assets/Rooms/Scenes/Animation testing.unity

@@ -12990,7 +12990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3878df3e1062e24dbbc43a819943fdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WinPlane
-  nextSceneName: Staircase_3
+  nextSceneName: Staircase_2
 --- !u!65 &1394252826
 BoxCollider:
   m_ObjectHideFlags: 0
