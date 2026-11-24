@@ -23,7 +23,9 @@ public class Bow : MonoBehaviour
 
     void Shoot()
     {
-        GameObject arrow = Instantiate(arrowPrefab, firePoint.position, firePoint.rotation);
+        Quaternion spawnRotation = firePoint.rotation * Quaternion.Euler(90f, 0f, 0f);
+        GameObject arrow = Instantiate(arrowPrefab, firePoint.position, spawnRotation);
+
         if (arrow.TryGetComponent<Rigidbody>(out Rigidbody rb))
         {
             rb.AddForce(firePoint.forward * shootForce, ForceMode.Impulse);
